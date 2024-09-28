@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.div{
+    display: flex;
+    width: 1180px;
+    height: 446px;
+    margin-top: 138px;
+    margin-left: 330px;
+    justify-content: space-between;
+    margin-right: 130px;
+}
+.zapis{
+    width: 440px;
+    height: 292px;
+    margin-top: 120px;
+}
+.btn:hover{
+background-color: blue;
+color: white;
+border-radius: 30px;
+width: 197px;
+height: 49px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.text2{
+    width: 952px;
+    height: 179px;
+    text-align: center;
+    margin-left: 456px;
+}
+.otec{
+    width: 1180px;
+    height: 801px;
+    margin-left: 356px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.deti{
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #E7E7E7;
+}
+.img2{
+margin: 68px 73px 40px;
+}
+.vnuk h3{
+margin-left: 41px;
+}
+.vnuk p{
+    margin-left: 41px;
+    margin-top: 1px;
+}
+.deti:hover{
+    background-color: rgb(60, 60, 253);
+}
+.m{
+    color: blue;
+    width: 200px;
+    height: 56px;
+    border-radius: 40px;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m:hover{
+    background-color: blue;
+    color: white;
+}
+.more{
+    text-align: center;
+    font-size: 48px;
+
+}
+.div2{
+    display: flex;
+    width: 1180px;
+    height: 446px;
+     margin-left: 330px;
+    justify-content: space-between;
+    margin-right: 130px;
+    gap: 102px;
+}
+.z2 h2{
+font-size: 36px;
+}
+.zapis h1{
+    font-size: 45px;
+}
+.zapis p{
+    font-size: 19px;
+}
+.text2 h2{
+    font-size: 35px;
+}
+.text2 p{
+    font-size: 18px;
+}
+.div3{
+    width: 1180px;
+    height: 782px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 130px;
+    margin-left: 330px;
+
+}
+.threecards{
+    width: 1,180px;
+    height: 516px;
+    display: flex;
+    gap: 20px;
+    
+}
+.cards{
+    width: 380px;
+    height: 516px;
+    border-radius: 5px;
+}
+.cards p{
+    font-size: 16px;
+}
+.cards h3{
+font-size: 21px;
+}
+.after{
+    font-size: 17px;
+    color: blue;
+}
+.after:hover::after{
+   content: "->death";
+   color: red;
+   font-size: 17px;
+}
+.footer{
+    width: 1600px;
+    height: 432px;
+    background-color: rgb(63, 63, 252);
+    margin-left: 75px;
+    display: flex;
+    gap: 50px;
+}
+.im{
+    width: 170px;
+    height: 41px;
+}
